@@ -1,0 +1,564 @@
+body
+{
+    padding-top: 70px;
+   
+}
+
+
+
+
+
+/*****start overriding boot strap*****/
+
+/*active link class */
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus
+{
+    background: #E41B17;
+    
+}
+/*main navbar*/
+.navbar
+{
+    min-height: 70px;
+}
+/*navbar link*/ 
+
+.navbar-inverse .navbar-nav > li > a
+{
+    color: #D0D0D0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+
+/*brand name*/
+.navbar-inverse .navbar-brand
+{
+    color: #FFF;
+    font-size: 30px;
+    line-height: 40px;
+}
+.navbar-inverse .navbar-brand span
+{
+    color:#E41B17;
+}
+/*drop down menu*/
+.dropdown-menu
+{
+    background-color: #333;
+    border-top: 2px solid #E41B17;
+    min-width: 200px;
+    
+    
+}
+.navbar-right .dropdown-menu
+{
+    right: auto;
+    left: 0px;
+    
+}
+.dropdown-menu > li > a 
+{
+    color: #FFF;
+    padding: 6px 20px;
+    
+    -WebKit-transition 25px .5s ease;
+    -o-transition 25px .5s ease;
+    -moz-transition 25px .5s ease;
+    -transition 25px .5s ease;
+    
+    
+        
+
+}
+.dropdown-menu .divider 
+{
+    background-color: aqua;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > afocus
+{
+    background: #871818;
+    color: #FFF;
+    padding-left: 25px;
+}
+.navbar-toggle
+{
+    margin-top: 18px;
+}
+/**carsel */
+.carousel-caption
+{
+  bottom: 100px;
+    background: rgba(3,3,3,0.5);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/*النقط اللي بتقلب منها */
+.carousel-indicators li
+{
+    height: 13px;
+    width: 13px;
+}
+
+.carousel-indicators .active
+{
+    height: 15px;
+    width: 15px;
+    background-color:  #E41B17;
+}
+/*end carosel*/
+ 
+
+/*start Section About*/
+.about
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about h1
+{
+    font-weight: bold;
+}
+.about .lead
+{
+    color: #888;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.about h1 span
+{
+    color:  #E41B17;
+}
+
+/*End Section About*/
+
+/*start features sectio*/
+.features
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #EEE;
+}
+.features .feat
+{
+    margin-bottom: 30px;
+}
+
+.features .feat p
+{
+    line-height: 2em;
+}
+.features h1
+{
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.features .feat span.glyphicon
+{
+    font-size: 30px;
+    color: #888;
+    margin-bottom: 10px;
+}
+/*end features sectio*/
+
+
+/*Start Section Testimonial*/
+.testimonial
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.testimonial h1
+{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.testimonial .lead
+{
+    line-height: 2em;
+    margin-bottom: 10px;
+}
+.testimonial span
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #E41B17;
+}
+.testimonial .carousel-inner
+{
+    min-height: 120px;
+}
+
+.testimonial .carousel-indicators
+{
+    position:static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px;
+} 
+/*static: القيمةالافتراضية ل position*/
+.testimonial .carousel-indicators li
+{
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: .5;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+}
+.testimonial .carousel-indicators li img
+{
+    max-width: 100%;
+}
+.testimonial .carousel-indicators li.active
+{
+    opacity: 1;
+    background: none;
+    border: 2px solid #E41B17;
+    width: 80px;
+    height: 80px;
+}
+    
+/*End Section Testimonial*/
+
+
+/*Start price table*/
+.Price_table h1
+{
+    margin-bottom: 30px;
+}
+.Price_table
+{
+    background: #EEE;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.Price_table .Pricing
+{
+    background: #FFF;
+    padding: 10px;
+    border: 1px solid #DDD;
+    margin-bottom: 15px;
+}
+.Price_table .Pricing:hover p
+{
+    -webkit-transform:scale(1.1,1.1) rotate(360deg);
+    -o-transform:scale(1.1,1.1) rotate(360deg);
+    -moz-transform:scale(1.1,1.1) rotate(360deg);
+     transform:scale(1.1,1.1) rotate(360deg);
+}
+.Price_table .Pricing h3
+{
+   margin: 15px 0 5px;   
+}
+.Price_table .Pricing p
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: #666;
+    width: 100px;
+    height: 100px;
+    background: #F3F3F3;
+    border-radius: 50%;
+    line-height: 100px;
+    border: 2px solid #E41B17;
+    -webkit-transtion-duration:.7s;
+    -moz-transtion-duration:.7s;
+    -o-transtion-duration:.7s;
+    transtion-duration:.7s;
+}
+.Price_table .Pricing ul
+{
+    line-height: 250%;
+    font-size: 18px;
+}
+.Price_table .Pricing a
+{
+    margin-bottom: 5px;
+}
+.Price_table .Pricing h3
+{
+    font-weight: bold;
+    
+}
+/*End price table*/
+
+/*Start Our Team*/
+.ourteam
+{
+    background: url('Img/13.jpg')no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+     background-size:cover;
+    min-height: 600px;
+    
+}
+.ourteam .team
+{
+    background: rgb(2,2,2,.7);
+    color: #FFF;
+    min-height: 600px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.ourteam .person
+{
+    margin-bottom: 40px;
+   
+}
+
+
+/*End Our Team*/
+
+/*start section subscribe*/
+.subscribe
+{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    background: #EEE;
+}
+.subscribe h1
+{
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #888;
+}
+.subscribe .form-control
+{
+    margin-right: -5px;
+    width: 300px;
+    border-radius: 0;
+}
+.subscribe button
+{
+    border-radius: 0;
+    
+}
+
+/*End section subscribe*/
+/*Start Section statistics*/
+.stats
+{
+    background: url(Img/paul-earle-xJ2tjuUHD9M-unsplash.jpg) no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+     background-size:cover;
+    min-height: 300px;
+}
+
+.stats .data
+{
+    background-color: rgba(2,2,2,.8);
+    min-height: 300px;
+    color: #FFF;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.stats h1
+
+{
+    margin-bottom: 40px;
+}
+.stats .stat
+{
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+    margin-bottom: 30px;
+    
+}
+
+.stats .stat:hover
+{
+    color:#E41B17;
+    
+}
+.stats p
+{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.stats span
+{
+    font-size: 18px;
+}
+
+/*End Section statistics*/
+
+
+
+/*Start Section Our Skills*/
+.ourskills
+{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.ourskills h1{margin-bottom: 50px;}
+
+.ourskills h3{margin-top: 0; font-weight: bold;}
+.progress{height: 23px;}
+.ourskills .progress-bar
+{
+    line-height: 23px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 10px;
+        
+}
+/*End Section Our Skills*/
+
+/*Start Section Contact_Us*/
+.contact_us
+{
+    background: url(Img/32.jpg)no-repeat center center fixed;
+    min-height: 300px;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+     background-size:cover;
+}
+.contact_us p{margin-bottom: 40px;}
+
+.contact_us .data
+{
+    background: rgba(9,9,9,.5);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #FFF;
+    min-height: 300px;
+}
+.contact_us textarea{height: 108px;}
+/*dark version*/
+.contact_us input[type="text"],
+.contact_us textarea
+{
+    background: rgba(82,78,78,.7);
+    color: #FFF;
+    border: none;
+    
+}
+
+
+/*End Section Contact_Us*/
+/*Start Section Our clients*/
+.our_client
+{
+    background:#EEE;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.our_client img
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+/*End Section Our clients*/
+/*Start Ultimate Footer*/
+.footer
+{
+    background: #111;
+    padding-top: 20px;
+    color: #AAA;
+}
+
+.footer a{color: #AAA;}
+.footer a:hover {color: #FFF;}
+.footer h3
+{
+    color: #0895D1;
+    margin: 30px 0 20px;
+    letter-spacing: 1px;
+}
+
+.footer .three_col
+{
+    overflow: hidden;
+    
+}
+.footer .three_col li
+{
+    float: left;
+    padding: 5px 0;
+    width: 33.3333%;
+}
+.footer .social-list
+{
+    overflow: hidden;
+    margin: 20px 0 10px;
+    
+}
+.footer .social-list li
+{
+    float: left;
+    opacity:0.7;
+    margin-right: 3px;
+    filter: alpha(opacity=70);
+    -webkit- transition-delay:all .7 s ease-in-out;
+    -moz- transition-delay:all .7 s ease-in-out;
+    -o- transition-delay:all .7 s ease-in-out;
+    transition-delay:all .7 s ease-in-out;
+}
+.footer .social-list li:hover
+{
+    opacity: 1;
+   
+}
+.super
+{
+    height: 100px;
+    width: 150px;
+}
+.footer .img-thumbnail
+{
+    background: rgba(0,0,0,.4);
+    border: 1px solid #666;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.footer .copy-right
+{
+    background: #333;
+    color: #AAA;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+.footer .copy-right span
+{
+    color:#0895D1;
+}
+
+
+
+
+/*End Ultimate Footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**عرض الصورة المناسب 1920px و الطول يمكن ان يكون 400px, 500px, 600px, حسب الحاجة**/
